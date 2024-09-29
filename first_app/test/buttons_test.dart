@@ -6,7 +6,7 @@ import 'package:first_app/main.dart';
 void main() {
   //certo
   //Next
-  testWidgets('Pressing Next generates a new word',
+  testWidgets('Clicar em next gera uma nova palavra',
       (WidgetTester tester) async {
     // Inicializa o widget principal
     await tester.pumpWidget(MyApp());
@@ -23,7 +23,7 @@ void main() {
     expect(initialWordPair, isNot(newWordPair));
   });
   //Like
-  testWidgets('Pressing Like adds/removes the word to/from favorites',
+  testWidgets('Verificar funcionamento do botão like',
       (WidgetTester tester) async {
     // Inicializa o widget principal
     await tester.pumpWidget(

@@ -2,7 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:first_app/main.dart';
 
 void main() {
-  test('toggleFavorite adds and removes word from favorites', () {
+  test('alternar Favorito, adicionar e remover palavra dos favoritos', () {
     final appState = MyAppState();
     final word = appState.current;
 
@@ -22,7 +22,7 @@ void main() {
     expect(appState.favorites.contains(word), isFalse);
   });
 
-  test('Multiple words can be added to favorites', () {
+  test('Adicionar mais de uma palavra aos favoritos', () {
     final appState = MyAppState();
 
     // Adiciona várias palavras aos favoritos

@@ -3,7 +3,7 @@ import 'package:english_words/english_words.dart';
 import 'package:first_app/main.dart';
 
 void main() {
-  test('Initial state is correct', () {
+  test('Verificar estado incial', () {
     final appState = MyAppState();
 
     // Verifica se uma palavra foi gerada

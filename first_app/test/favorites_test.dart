@@ -5,7 +5,7 @@ import 'package:first_app/main.dart';
 
 void main() {
   //certo
-  testWidgets('Add and remove favorites', (WidgetTester tester) async {
+  testWidgets('Adicionar e remover favoritos', (WidgetTester tester) async {
     // Inicializa o widget principal com o Provider
     await tester.pumpWidget(
       ChangeNotifierProvider(

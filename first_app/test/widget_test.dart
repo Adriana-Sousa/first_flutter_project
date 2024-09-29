@@ -4,7 +4,7 @@ import 'package:first_app/main.dart';
 
 void main() {
   //certo
-  testWidgets('App starts at GeneratorPage with Next and Like buttons',
+  testWidgets('Verificar se a página inicial está sendo iniciada corretamente',
       (WidgetTester tester) async {
     // Inicializa o widget principal
     await tester.pumpWidget(MyApp());

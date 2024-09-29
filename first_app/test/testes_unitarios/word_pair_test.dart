@@ -3,7 +3,7 @@ import 'package:english_words/english_words.dart';
 import 'package:first_app/main.dart';
 
 void main() {
-  test('getNext generates a new word pair', () {
+  test('Testar getNext', () {
     final appState = MyAppState();
 
     final initialWord = appState.current;

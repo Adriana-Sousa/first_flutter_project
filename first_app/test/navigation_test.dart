@@ -4,8 +4,7 @@ import 'package:first_app/main.dart';
 
 void main() {
 //certo
-  testWidgets('Navigation between Home and Favorites works',
-      (WidgetTester tester) async {
+  testWidgets('Navegação entre as duas telas', (WidgetTester tester) async {
     // Inicializa o widget principal
     await tester.pumpWidget(MyApp());
 
